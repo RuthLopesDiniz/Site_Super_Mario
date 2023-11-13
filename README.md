@@ -15,6 +15,6 @@
 <div align=center>
   <h2>Desktop</h2>
   <a href="https://cyberxdolly.github.io/projeto-mario-bros/">
-    <img src="https://github.com/CYBERxDOLLY/projeto-mario-bros/blob/main/assets/img/mario-desktop.png?raw=true">
+    <img src="https://raw.githubusercontent.com/RuthLopesDiniz/Site_Super_Mario/c6a6ac469b6d5fc0d9ab48e1fa693721a6169a2c/assets/desktop.PNG">
     <br><br>
    
