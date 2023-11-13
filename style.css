@@ -1,30 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mukta', sans-serif;
 }
 
-body{
+body {
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.logo-Mario{
+.logo-Mario {
     width: 300px;
 }
 
-.box-main{
+.box-main {
     width: 40%;
 }
 
-.imglogoMarioLuigi{
+.imglogoMarioLuigi {
     height: 600px;
 }
 
-.box-video-mario{
+.box-video-mario {
     position: fixed;
     top: 0;
     z-index: -1;
@@ -32,7 +32,7 @@ body{
     height: 100%;
 }
 
-video{
+video {
     position: fixed;
     top: 0;
     height: 100vh;
@@ -50,7 +50,7 @@ video{
 p {
     color: white;
     margin-top: 10px;
-    font-size: 21px;    
+    font-size: 21px;
     text-align: justify;
     line-height: 28px;
 }
@@ -66,7 +66,7 @@ button {
     cursor: pointer;
 }
 
-.fale_conosco{
+.fale-conosco {
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -75,11 +75,11 @@ button {
     gap: 20px;
     position: fixed;
     left: -280px;
-    transition: left 1s linear;
+    transition: left 0.5s linear;
     z-index: 4;
 }
 
-input{
+input {
     height: 40px;
     border-radius: 3px;
     border: 1px solid gray;
@@ -87,7 +87,7 @@ input{
     outline-color: #C51111;
 }
 
-textarea{
+textarea {
     height: 90px;
     border-radius: 3px;
     border: 1px solid gray;
@@ -95,12 +95,123 @@ textarea{
     outline-color: #C51111;
 }
 
-.mascaraAll{
+.mascaraAll {
     visibility: hidden;
     height: 100vh;
     width: 100vw;
     position: fixed;
     top: 0;
     z-index: 3;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    ;
+}
+
+/* Responsive styles for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .logo-Mario {
+        width: 100%;
+        /* Make the logo take full width */
+        max-width: 200px;
+        /* Limit the maximum width */
+    }
+
+    .box-main {
+        margin-top: 5%;
+        width: 90%;
+        /* Adjust the width for smaller screens */
+    }
+
+    .imglogoMarioLuigi {
+        height: auto;
+        /* Allow the image to scale proportionally */
+        max-width: 90%;
+        /* Make sure the image doesn't exceed its container */
+    }
+
+    .mascaraAll {
+        background: linear-gradient(109deg, rgba(10, 12, 16, 0.99), rgba(10, 12, 16, 0.7), rgba(10, 12, 16, 0.99));
+    }
+
+    .mascara-video {
+        position: relative;
+        /* Remove fixed positioning for video elements */
+    }
+
+    video {
+        height: 100vh;
+        /* Allow the video to scale proportionally */
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    
+    .fale-conosco{ /*configura o formulário em telas menores*/
+        display: flex;
+        position: fixed;
+        transition: left 0.5s linear;
+        z-index: 4;
+        left: -250px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    body {
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .logo-Mario {
+        width: 100%;
+        /* Make the logo take full width */
+        max-width: 200px;
+        /* Limit the maximum width */
+    }
+
+    .box-main {
+        margin-top: 5%;
+        width: 100%;
+        /* Adjust the width for smaller screens */
+    }
+
+    .imglogoMarioLuigi {
+        height: auto;
+        /* Allow the image to scale proportionally */
+        max-width: 90%;
+        /* Make sure the image doesn't exceed its container */
+    }
+
+    .mascaraAll {
+        background: linear-gradient(109deg, rgba(10, 12, 16, 0.99), rgba(10, 12, 16, 0.7), rgba(10, 12, 16, 0.99));
+    }
+
+    video {
+        height: 100vh;
+        /* Allow the video to scale proportionally */
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .fale-conosco{
+       align-items: center;
+       margin-right: 5px;
+    }
+
+    button {
+        height: 40px;
+        width: 100px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
 }

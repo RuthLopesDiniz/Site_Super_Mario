@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="body">
     <div class="box-video-mario">
         <video src="./assets/video.mp4" class="video-mario" autoplay muted loop></video>
         <div class="mascara-video"></div>
@@ -30,9 +30,9 @@
 
     <img src="./assets/mario.png" alt="logoMarioLuigi" class="imglogoMarioLuigi">
 
-    <form class="fale_conosco">
-        <input placeholder="Seu nome" type="text">
-        <input placeholder="Telefone" type="tel">
+    <form class="fale-conosco">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Telefone" type="tel" name="telefone">
         <textarea placeholder="Digite sua mensagem aqui"></textarea>
         <button onclick="esconderForm()">Enviar formulário</button>
     </form>
