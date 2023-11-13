@@ -2,7 +2,7 @@
 <br>
 <p align=center>Tela inicial e formulário com o tema: Super Mario Bros. Contém inputs de nome, telefone e texto. 
   <br>
-  Modo responsivo a partir de 480px de largura.
+  Modo responsivo a partir de 768px de largura.
   <br>
   O projeto foi desenvolvido utilizando: <b>HTML, CSS e JavaScript,</b> durante as aulas ao vivo que aconteceram no evento <b>"Programador em 72h"</b> do <a href="https://rodolfomori.com.br/devclub/" target="_blank">Dev Club</a></p>
 <div align=center>
