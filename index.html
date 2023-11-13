@@ -30,14 +30,20 @@
 
     <img src="./assets/mario.png" alt="logoMarioLuigi" class="imglogoMarioLuigi">
 
-    <form class="fale-conosco">
+    <form class="fale-conosco" action="https://formspree.io/f/xoqozjek" method="post">
+        <input type="hidden" name="_replyto" value="ruthma1964@gmail.com">
+
         <input placeholder="Seu nome" type="text" name="nome">
         <input placeholder="Telefone" type="tel" name="telefone">
-        <textarea placeholder="Digite sua mensagem aqui"></textarea>
-        <button onclick="esconderForm()">Enviar formulário</button>
+        <textarea placeholder="Digite sua mensagem aqui" name="mensagem"></textarea>
+        <button onclick="esconderForm()" type="submit">Enviar formulário</button>
+
+        <input type="hidden" name="_subject" value="Novo formulário enviado">
+        <input type="hidden" name="_next" value="URL-de-redirecionamento-após-envio">
     </form>
 
     <div class="mascaraAll"></div>
 </body>
-    <script src="./script.js"></script>
+<script src="./script.js"></script>
+
 </html>
