@@ -1,5 +1,3 @@
-# Site_Super_Mario
-
 <h1 align=center>Super Mario Bros</h1>
 <br>
 <p align=center>Tela inicial e formulário com o tema: Super Mario Bros. Contém inputs de nome, telefone e texto. 
