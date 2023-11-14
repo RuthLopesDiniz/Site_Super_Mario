@@ -4,7 +4,7 @@ let mascara = document.querySelector(".mascaraAll")
 function cliqueButton(){
     
         
-        formulario.style.left = "20%"
+        formulario.style.left = "18%"
         mascara.style.visibility = "visible"
         console.log("Aplicando responsividade")
     }
