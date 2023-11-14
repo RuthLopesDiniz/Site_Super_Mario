@@ -164,7 +164,7 @@ textarea {
         line-height: 22px;
     }
     
-    .fale-conosco{ /*configura o formulário em telas menores*/
+    .fale-conosco{ 
         display: flex;
         position: fixed;
         z-index: 4;
