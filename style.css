@@ -64,18 +64,28 @@ button {
     color: #fff;
     margin-top: 20px;
     cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity 0.3s ease-in-out;
+}
+button:hover {
+    opacity: .6;
 }
 
+button:active {
+    opacity: .6;
+}
+
+
 .fale-conosco {
-    background: #fff;
     display: flex;
+    background: #fff;
     flex-direction: column;
     padding: 24px;
     border-radius: 10px;
     gap: 20px;
     position: fixed;
     left: -280px;
-    transition: left 0.5s linear;
+    transition: left 1s linear;
     z-index: 4;
 }
 
@@ -129,7 +139,7 @@ textarea {
     .imglogoMarioLuigi {
         height: auto;
         /* Allow the image to scale proportionally */
-        max-width: 90%;
+        width: 230px;
         /* Make sure the image doesn't exceed its container */
     }
 
@@ -149,16 +159,16 @@ textarea {
 
     p {
         margin-top: 10px;
-        font-size: 16px;
+        font-size: 14px;
         text-align: justify;
+        line-height: 22px;
     }
     
     .fale-conosco{ /*configura o formulário em telas menores*/
         display: flex;
         position: fixed;
-        transition: left 0.5s linear;
         z-index: 4;
-        left: -250px;
+        left: -270px;
     }
 
 }
@@ -178,14 +188,14 @@ textarea {
 
     .box-main {
         margin-top: 5%;
-        width: 100%;
+        width: 90%;
         /* Adjust the width for smaller screens */
     }
 
     .imglogoMarioLuigi {
         height: auto;
         /* Allow the image to scale proportionally */
-        max-width: 90%;
+        max-width: 80%;
         /* Make sure the image doesn't exceed its container */
     }
 
@@ -201,6 +211,7 @@ textarea {
     p {
         font-size: 14px;
         text-align: center;
+        line-height: 20px;
     }
     .fale-conosco{
        align-items: center;
