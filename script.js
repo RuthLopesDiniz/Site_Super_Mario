@@ -2,11 +2,10 @@ let formulario = document.querySelector(".fale-conosco")
 let mascara = document.querySelector(".mascaraAll")
 
 function cliqueButton(){
-    
-        
-        formulario.style.left = "18%"
+   
+        formulario.style.left = "50%"
+        formulario.style.transform = "translateX(-50%)";
         mascara.style.visibility = "visible"
-        console.log("Aplicando responsividade")
     }
 
 
