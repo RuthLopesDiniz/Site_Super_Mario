@@ -1,6 +1,6 @@
 <h1 align=center>Super Mario Bros</h1>
 <br>
-<p align=center>Tela inicial e formulário com o tema: Super Mario Bros. Contém inputs de nome, telefone e texto. 
+<p align=center>Tela inicial e formulário com o tema: Super Mario Bros. Contém inputs de nome, telefone e texto.<br> 
   <br> Preencha o formulário e clique em enviar, a mensagem será entregue no meu e-mail.<br>
   Modo responsivo a partir de 768px de largura.
   <br>
@@ -14,7 +14,9 @@
 
 <div align=center>
   <h2>Desktop</h2>
-  <a href="https://cyberxdolly.github.io/projeto-mario-bros/">
     <img src="https://raw.githubusercontent.com/RuthLopesDiniz/Site_Super_Mario/c6a6ac469b6d5fc0d9ab48e1fa693721a6169a2c/assets/desktop.PNG">
     <br><br>
+  <div align=center>
+  <h2>Celular</h2>
+    <img src="https://github.com/RuthLopesDiniz/Site_Super_Mario/blob/main/assets/telaCelular.PNG?raw=true">
    
